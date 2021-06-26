@@ -1,0 +1,63 @@
+body {
+    margin:0;
+    padding: 0;
+    color:white;
+    background:black;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 48px;
+    padding-bottom: 60px;
+}
+
+a {
+    color:blue;
+}
+
+a:hover {
+    color: white;
+}
+
+header {    
+    padding: 140px 140px 0px 140px;
+}
+
+.hero {
+    background-image: url(../img/moon.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    padding-bottom: 450px;
+    background-origin: border-box;
+    
+}
+
+.section{ 
+    padding: 70px 140px 140px 140px;
+} 
+
+.blue-section {
+    background: blue;
+    padding: 140px;
+}
+
+.columns {
+    display:flex;
+}
+
+.col {
+    margin-left: 30px;
+}
+
+.blue-text {
+    color:blue;
+}
+
+.barren-rock-paragraph {
+    padding-bottom: 180px;
+}
